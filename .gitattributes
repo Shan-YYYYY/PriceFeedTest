@@ -1,0 +1,2 @@
+# Set the line ending conversions for the .gitmodules file
+.gitmodules text eol=lf
