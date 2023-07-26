@@ -2,5 +2,14 @@
 src = "src"
 out = "out"
 libs = ["lib","node_modules"]
+test = 'test'
+cache_path  = 'forge-cache'
+solc_version = "0.8.17"
+
+[rpc_endpoints]
+arbitrum = "https://arb-mainnet.g.alchemy.com/v2/DROydM03oOoBkwd97m0VNwokVeISGFq6"
+
+[etherscan]
+goerli = { key = "X2T7T33SD7KCF3U6UUUAP5DUXDA5S523XK" }
 
 # See more config options https://github.com/foundry-rs/foundry/tree/master/config
