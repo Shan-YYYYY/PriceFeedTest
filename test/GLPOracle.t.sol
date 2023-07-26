@@ -11,7 +11,6 @@ contract GLPOracleTest is GLPOracle{
     GLPOracle glpOralce;
 
     function setUp() public {
-        glpOralce = new GLPOracle;
-
+        glpOralce = new GLPOracle();
     }
 }
